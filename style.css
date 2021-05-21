@@ -1,0 +1,75 @@
+html{
+    margin-inline: 200px;
+    padding-block: 50px;
+    padding-inline: 50px;
+    background-color:aliceblue;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.background{
+    background: linear-gradient(-90deg, #a5d0f3, #cea9f8);
+    outline-style: solid;    
+    box-shadow: gray 0 0 5px;
+    min-width: min-content;
+    max-width: min-content;
+}
+
+h1{
+    color:rgb(2, 0, 0);
+    font-family: "Monaco", monospace;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 15%;
+    height: 15%;
+    margin-inline: 50px;
+    margin-block: 10px;
+    border-radius: 10px;
+    outline-width: 2px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact{
+    margin: 0px 5px 0px 45px;
+    padding: 0px 0px 0px 0px;
+}
+
+.firstLine{
+    margin: 5px 45px 5px 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondLine{
+    margin: 5px 5px 5px 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.objective{
+    margin: 0px 45px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    flex-basis: 700px;
+    width: 200px;
+}
+
+.formAcadem{
+    margin: 0px 45px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    flex-basis: 500px;
+    width: 600px;
+}
+
+.idioms{
+    margin: 0 45px 10px 45px;
+    padding: 0px 5px 5px 5px;
+    flex-basis: 500px;
+}
+
+li,ul,p{
+    font-family: "Monaco", monospace;
+}
